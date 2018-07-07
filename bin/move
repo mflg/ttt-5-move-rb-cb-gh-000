@@ -9,7 +9,7 @@ new_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
-index = input_to_index (gets.strip)
+index = input_to_index(gets.strip)
 
 move(new_board,index)
 
