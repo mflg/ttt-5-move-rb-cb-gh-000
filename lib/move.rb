@@ -17,5 +17,5 @@ def update_array_at_with(array, index, value)
 end
 
 def move (board, position, character="X")
-  update_array_at_with(board,index,character)
+  update_array_at_with(board,position,character)
 end
